@@ -12,7 +12,7 @@ body {
   font-family: "Archivo", sans-serif;
 }
 
-.App {
+section {
   display: flex;
   height: 100vh;
   justify-content: space-between;
@@ -33,9 +33,28 @@ h2 {
   margin: 0 2rem 2rem;
 }
 
-.image-gallery {
+figcaption {
+  font-size: 2rem;
+  font-weight: normal;
+  position: fixed;
+  text-align: center;
+  z-index: 1;
+  bottom: 0;
+  margin: 0 auto;
+  width: 50%;
+  padding: 2rem 0;
+}
+
+figure {
   background: #fff;
   margin: 0;
   position: relative;
   width: 50vw;
+}
+
+img {
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  width: 50%;
 }
